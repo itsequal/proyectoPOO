@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="https://use.fontawesome.com/96cbd61ead.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,900" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <div class="text-center">
+      <div class="animate__animated animate__slideInDown">
+        <h1 class="rainbow rainbow_text_animated">¡Bienvenido, disfruta de la pagina!</h1>
+      </div>
+
+    </div>
+    <!--Navbar-->
+
+    <div class="container">
+
+      <!-- Navbar brand -->
+
+      <!-- Collapse button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+        </ul>
+        <!-- Links -->
+
+        <form class="form-inline">
+          <div class="md-form my-0">
+          </div>
+        </form>
+      </div>
+      <!-- Collapsible content -->
+
+    </div>
+
+    </nav>
+    <!--/.Navbar-->
+    <!--Mask-->
+    <div id="intro" class="view">
+
+      <div class="mask">
+
+      </div>
+
+    </div>
+    <!--/.Mask-->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main>
+
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer>
+
+  </footer>
+  <!--Footer-->
+  </div>
+  <div class="about-wrapper bg-dark" role="scroll-destination">
+    <div class="container">
+      <div class="about text-center">
+        <h3 class="animate__animated animate__rubberBand animate__repeat-3">Utilice los recuadros de abajo para rellenar o ver los distintos productos</h3>
+      </div>
+      <div class="features text-center">
+        <div class="row">
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="pricing py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Formulario -->
+        <div class="col-sm-7">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h6 class="card-price text-center"><span class="period">Agrega un producto: </span></h6>
+              <hr>
+              <ul class="fa-ul">
+                <form method="post" id="posting">
+                  <div class="form-group row">
+                    <label for="nombreProducto" class="col-sm-2 col-form-label">
+                      <li><span class="fa-li"></span>Id</li>
+                    </label>
+                    <div class="col-sm-10">
+                      <input type="id" class="form-control" id="idProd" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="nombreProducto" class="col-sm-2 col-form-label">
+                      <li><span class="fa-li"></span>Titulo</li>
+                    </label>
+                    <div class="col-sm-10">
+                      <input type="Titulo" class="form-control" id="tituloProd" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="nombreProducto" class="col-sm-2 col-form-label">
+                      <li><span class="fa-li"></span>Autor</li>
+                    </label>
+                    <div class="col-sm-10">
+                      <input type="Autor" class="form-control" id="autorProd" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="nombreProducto" class="col-sm-2 col-form-label">
+                      <li><span class="fa-li"></span>Paginas</li>
+                    </label>
+                    <div class="col-sm-10">
+                      <input type="Paginas" class="form-control" id="paginasProd" placeholder="">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="nombreProducto" class="col-sm-2 col-form-label">
+                      <li><span class="fa-li"></span>Fama</li>
+                    </label>
+                    <div class="col-sm-10">
+                      <input type="Fama" class="form-control" id="famaProd" placeholder="">
+                    </div>
+                  </div>
+                </form>
+              </ul>
+              <hr>
+              <button type="button" class="btn btn-block btn-primary text-uppercase" id="botonAgregar" value="Agregar">Agregar</button>
+              <button type="button" class="btn btn-block btn-primary text-uppercase" id="botonPut" value="Put">Modificar</button>
+            </div>
+          </div>
+        </div>
+        <!-- Tabla de Producto -->
+        <div class="col-sm-5">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h6 class="card-price text-center"><span class="period">Producto selecionado: </span></h6>
+              <hr>
+              <ul class="fa-ul">
+                <li><span class="fa-li"></span>Id: <span id="id"></li>
+                <li><span class="fa-li"></span>Titulo: <span id="tit"></li>
+                <li><span class="fa-li"></span>Autor: <span id="aut"></li>
+                <li><span class="fa-li"></span>Paginas: <span id="pag"></li>
+                <li><span class="fa-li"></span>Fama: <span id="fam"></li>
+              </ul>
+              <hr>
+              <form id="my-form" class="Input-module__container--1l83Z">
+                <input class="Input-module__input--3Zr-s" type="number" placeholder="Buscar por Id" name="in" id="Look" value="">
+                <div class="btn-toolbar btn-group-vertical" id="buttons">
+                  <hr>
+                  <button class="btn btn-block btn-primary text-uppercase" type="submit" id="Buscar">Buscar</button>
+              </form>
+              <button class="btn btn-block btn-primary text-uppercase" type="submit" id="Anterior">Anterior</button>
+              <button class="btn btn-block btn-primary text-uppercase" type="submit" id="Siguiente">Siguiente</button>
+              <button class="btn btn-block btn-primary text-uppercase" type="submit" id="Borrar">Borrar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="index.js" charset="utf-8"></script>
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+</body>
+
+</html>
